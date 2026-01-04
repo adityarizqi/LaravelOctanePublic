@@ -3,5 +3,5 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return config('app.name') . ' - ' . 'Nova';
+    return config('app.name') . ' - ' . 'PHP ' . phpversion();
 });
